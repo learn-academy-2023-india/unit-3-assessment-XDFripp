@@ -4,9 +4,21 @@
   flex-wrap: wrap;
 }
 .cardStyles {
-  border: 1px solid black;
+  border: 2px solid black;
   width: 70px;
   height: 95px;
   margin: 10px;
   padding: 10px;
+  background-color: green;
 }
+body {
+  background: repeating-linear-gradient(
+    -45deg,
+    red,
+    green 10px,
+    yellow 10px,
+    yellow 10px
+  );
+}
+
+
