@@ -28,30 +28,40 @@ PRs should be posted _before_ class begins on Tuesday, January 2, 2024.
 ### React Challenge
 
 1. React Debugging: The Card Draw React application has three (3) errors that need to be fixed. Use the console and error messages to guide you to the solution.
+    - To clear the error, we must: 1) go into our App.js and have our return wrapped in   angle brackets <></> 2) in cards.js, pass 'props' on line 3 as our parameter 3) on line 6, re-write the function so it reads props.hand.map((card, index)... 4) export cards at the end
 
 2. React Feature: Add functionality to the `Return Cards and Shuffle Deck` button using the `shuffle` function to reset the Card Draw application to its original state.
+    - To add the function that we want to the button, we came up with a for loop formula that randomizes or "shuffles" the deck. We also made a const of resetHand that is a function that sets the 'hand' state to an empty erray, basically resetting the hand to an initial state.
 
-3. React Concepts: Add comments to the sever (7) notations in the `drawCard` function describing in detail the functionality of the following line of code.
+3. React Concepts: Add comments to the seven (7) notations in the `drawCard` function describing in detail the functionality of the following line of code.
+    - Comments added
 
 4. STRETCH (optional): Add stylings of your choice to the application. Ensure the styling does not interfere with the card draw functionality.
+    - Christmas styling added.
 
 ### Interview Practice Questions
 
 1. What are three (3) syntax difference between HTML and JSX?
+    - 1) HTML uses the 'class' attribute while JSX uses the attribute 'className'.
+      2) HTML normally uses strings to define inline styling while JSX uses an object
+      3) HTML is a markup language whearas JSX is a JavaScript syntax extension
 
 2. What is yarn? What file(s) are modified when you run the command yarn in your terminal?
+    - Yarn is a file package manager that provides an easier and more efficient way to manage file dependecies. Yarn.lock, json, and node modules are the files normally modified.
 
 3. What is the difference between state values and props in React?
+    - Props are used to pass data from a parent component to a child component, while state is used to manage data within a component.
 
 4. STRETCH (optional): What is the difference between a div tag and a span tag?
+    - A div tag is used for block-level organization and styling of page elements while a span tag is used for inline organization and styling.
 
 ### Looking Ahead: Terms for Next Unit
 
-1. Object-oriented programming:
+1. Object-oriented programming: computer programming model that organizes software design around data, or objects, rather than functions and logic.
 
-2. Ruby:
+2. Ruby: an interpreted, high-level, general-purpose programming language which supports multiple programming paradignms.
 
-3. Ruby Hashes:
+3. Ruby Hashes: a data structure that stores items and their values by associated keys.
 
 ---
 
